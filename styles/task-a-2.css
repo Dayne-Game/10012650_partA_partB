@@ -1,0 +1,142 @@
+.container {
+    width: 350px;
+    height: 500px;
+    padding: 0px auto;
+    margin: 0px auto;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+}
+
+.container input[type="text"] {
+    width: 92%;
+    height: 40px;
+    font-size: 15pt;
+    margin-left: 20px;
+}
+
+h3 {
+    padding-top: 3%;
+    padding-left: 5px;
+    margin-left: 20px;
+    color: white !important;
+    font-family: arial !important;
+}
+
+h1 {
+    color: white !important;
+    font-family: arial !important;
+}
+
+
+/* .container input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 50px;
+    color: #fff;
+    width: 90%;
+    font-size: 16px;
+    background: lightskyblue;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 0px auto;
+    padding: 0px auto;
+} */
+
+.container input[type="submit"]:hover {
+    background: #efed40;
+    color: #262626;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ticket-first-class {
+    width: 500px;
+    height: 150px;
+    margin-top: 65px;
+    border-radius: 25px;
+    background-color: white;
+    float: right;
+}
+
+.ticket-economy-class {
+    width: 500px;
+    height: 150px;
+    margin-top: 63px;
+    border-radius: 25px;
+    background-color: white;
+    float: left;
+}
+
+.ticket-economy-class h2 {
+    padding-left: 20px;
+}
+
+.ticket-first-class h2 {
+    padding-left: 20px;
+}
+
+#text1 {
+    float: right;
+    padding-right: 40px;
+    font-size: 50pt;
+    margin-top: -62px !important;
+}
+
+#text {
+    float: right;
+    padding-right: 40px;
+    font-size: 50pt;
+    margin-top: -62px !important;
+}
+
+.panel-group {
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-top: -160px;
+}
+
+.text-submit-container {
+    width: 500px;
+    height: 100px;
+}
+
+.btn {
+    margin-left: 20px !important;
+    margin-top: 10px;
+    width: 92% !important;
+    background-color: royalblue !important;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: green !important;
+}
+
+.btn1 {
+    margin-left: 20px !important;
+    margin-top: 10px;
+    width: 92% !important;
+}
+
+.btn1:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.btn2 {
+    margin-left: 20px !important;
+    margin-top: 10px;
+    width: 92% !important;
+}
+
+.btn2:hover {
+    background-color: white !important;
+    color: black !important;
+}

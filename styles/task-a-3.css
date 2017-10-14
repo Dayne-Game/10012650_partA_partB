@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 15pt !important;
+}
+
+.panel-primary {
+    margin-top: 10% !important;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.panel-group {
+    margin-top: 10px !important;
+}
+
+.form-control {
+    width: 30% !important;
+}
+
+.form-group {
+    color: white !important;
+}
+
+label {
+    display: block;
+}
+
+.btn {
+    height: 50px;
+    width: 30%;
+}
+
+.panel-success {
+    width: 30%;
+}
+
+.panel-warning {
+    width: 30%;
+}
+
+.panel-info {
+    width: 30%;
+}
+
+form {
+    margin: 20px auto;
+    width: 420px;
+}
+
+.form-row {
+    padding: 5px 10px;
+}
+
+
+/* label {
+    display: block;
+    margin: 3px 0;
+} */
+
+.form-row input {
+    padding: 3px 1px;
+    width: 100%;
+}
+
+input.currency {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-group .input-buttons {
+    position: relative;
+    z-index: 3;
+}

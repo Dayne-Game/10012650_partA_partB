@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/task-a-3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="task-a-1.html">Jeff Assignment</a>
+            </div>
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Part A<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="task-a-1.html">Question 1</a></li>
+                        <li><a href="task-a-2.html">Question 2</a></li>
+                        <li><a href="task-a-3.html">Question 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="task-b-1.html">Part B</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="contanier">
+        <div class="panel-group">
+            <div class="panel panel-primary">
+                <div class="panel-heading"></div>
+                <div class="panel-body">
+
+                    <div class="form-group">
+                        <center>
+                            <label for="fname">Enter First Name:</label>
+                            <input type="text" id="firstname" class="form-control" placeholder="Enter First Name">
+                            <!-- This is where the user inputs first name -->
+                            <label for="fname">Enter Last Name:</label>
+                            <input type="text" id="lastname" class="form-control" placeholder="Enter Last Name">
+                            <!-- This is where the user inputs Last Name -->
+                            <label for="fname">Enter Salary:</label>
+                            <input type="number" id="salary" class="form-control" placeholder="Enter Salary" step="0.01">
+                            <!-- This is where the user inputs Salary -->
+                        </center>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">First Name:</div>
+                        <div class="panel-body">
+                            <label>
+
+                            <h1 id="firstNAME"></h1>
+                            <!-- This is where the function displays First Name -->
+                       <br>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class=" panel panel-warning">
+                        <div class="panel-heading">Last Name:</div>
+                        <div class="panel-body">
+                            <label>
+                       <h1 id="lastNAME"></h1>
+                       <!-- This is where the function displays Last Name -->
+                       <br>
+                    </label>
+
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Salary:</div>
+                        <div class="panel-body">
+                            <label>
+                            <h1 id="SALARY"></h1>
+                            <!-- This is where the function displays Salary -->
+                            <br>
+                        </label>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="task-a-3.js"></script>
+</body>
+
+</html>
